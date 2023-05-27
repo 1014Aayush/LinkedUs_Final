@@ -37,19 +37,19 @@ const userSchema = new mongoose.Schema({
     required: false,
   },
 
-  roles: {
-    type: String,
-    required: false,
-  },
+
   image: {
     data: {
       type: String,
       required: false,
+
     },
     contentType: {
       type: String,
       required: false,
     },
+
+
   },
 
   //array of object
